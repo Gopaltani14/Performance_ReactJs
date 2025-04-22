@@ -5,9 +5,9 @@ function Images() {
     <div>
       Images
       <div>
-        <img src="/20mb1.jpg" alt="img1" width={500} height={500} />
-        <img src="/20mb2.jpg" alt="img2" width={500} height={500} />
-        <img src="/20mb3.jpg" alt="img3" width={500} height={500} />
+        <img src="../public/20mb1.jpg" alt="img1" />
+        <img src="../public/20mb2.jpg" alt="img2" />
+        <img src="../public/20mb3.jpg" alt="img3" />
       </div>
     </div>
   );
