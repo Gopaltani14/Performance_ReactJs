@@ -9,6 +9,7 @@ import {
 import SampleForm from "./SampleForm";
 import DataGrid from "./DataGrid";
 import Chart from "./Chart";
+import Images from "./Images";
 
 // Move the navigation logic inside a component rendered within <BrowserRouter>
 function Navigation() {
@@ -26,6 +27,9 @@ function Navigation() {
         </li>
         <li>
           <Link to="/form">Sample Form (Route)</Link>
+        </li>
+        <li>
+          <Link to="/images">Load heavy images</Link>
         </li>
         <li>
           <p
@@ -68,6 +72,7 @@ function App() {
           <Route path="/datagrid" element={<DataGrid />} />
           <Route path="/form" element={<SampleForm />} />
           <Route path="/chart" element={<Chart />} />
+          <Route path="/images" element={<Images />} />
         </Routes>
       </div>
     </BrowserRouter>

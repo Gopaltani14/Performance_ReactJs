@@ -13,7 +13,7 @@ export default defineConfig(({ mode }) => {
 
     server: {
       hmr: true,
-      port: 3000,
+      port: 5173,
       // open: true,
       // fs: {
       //   allow: ["node_modules/@carbon"], // Allow access to node_modules folder
