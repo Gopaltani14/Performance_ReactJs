@@ -60,6 +60,8 @@ function App() {
   return (
     <BrowserRouter>
       <div style={{ margin: "1rem" }}>
+        <h3 style={{ textAlign: "center" }}>ReactJS App</h3>
+        <hr />
         <Navigation />
         <hr />
         <Routes>
