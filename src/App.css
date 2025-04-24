@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,38 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+.nav-link {
+  /* color: white; */
+  text-decoration: none;
+  /* border-right: 2px solid rgb(11, 103, 146); */
+  /* padding-right: 20px; */
+}
+.nav-link:hover {
+  color: black;
+}
+.btn {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+.btn-primary {
+  background-color: #2b9bc7;
+  color: white;
+}
+.btn-secondary {
+  background-color: #cf4e45;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #1e85ad;
+  color: white;
+}
+.btn-secondary:hover {
+  background-color: #c23c33;
+  color: white;
 }

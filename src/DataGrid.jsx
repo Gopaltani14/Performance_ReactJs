@@ -3,6 +3,7 @@ import { AllCommunityModule, ModuleRegistry } from "ag-grid-community";
 import { AgGridReact } from "ag-grid-react";
 // import "ag-grid-community/styles/ag-grid.css";
 // import "ag-grid-community/styles/ag-theme-alpine.css";
+import "./App.css";
 
 ModuleRegistry.registerModules([AllCommunityModule]);
 
@@ -133,7 +134,7 @@ export default function DataGrid() {
     const data = await res.json();
     const multipliedData = [...data, ...data, ...data];
     setData(multipliedData);
-    setShowTable((prev) => !prev);
+    setShowTable(true);
   };
 
   const clearData = () => {
@@ -143,17 +144,18 @@ export default function DataGrid() {
 
   return (
     <div>
-      <div style={{ display: "flex", gap: "1rem" }}>
-        <button
-          onClick={onClick}
-          style={{ padding: "10px 20px", marginBottom: 20 }}
-        >
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          gap: "1rem",
+          margin: "1rem",
+        }}
+      >
+        <button className="btn btn-primary" onClick={onClick}>
           Load Table
         </button>
-        <button
-          onClick={clearData}
-          style={{ padding: "10px 20px", marginBottom: 20 }}
-        >
+        <button className="btn btn-secondary" onClick={clearData}>
           Clear Data
         </button>
       </div>

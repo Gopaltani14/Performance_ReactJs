@@ -3,8 +3,7 @@ import React from "react";
 function Images() {
   return (
     <div>
-      Images
-      <div>
+      <div style={{ marginTop: "1rem" }}>
         <img
           src="https://examplefile.com/image/jpg/20-mb-jpg"
           alt="img1"

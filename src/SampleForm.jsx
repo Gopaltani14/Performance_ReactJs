@@ -113,7 +113,6 @@ export const formFields = [
 function SampleForm() {
   return (
     <div>
-      SampleForm
       <div>
         <Form
           style={{
