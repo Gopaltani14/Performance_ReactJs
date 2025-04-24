@@ -73,7 +73,6 @@ function App() {
           <Route path="/form" element={<SampleForm />} />
           <Route path="/chart" element={<Chart />} />
           <Route path="/images" element={<Images />} />
-          <Route path="*" element={<div> 404 Page Not Found </div>} />
         </Routes>
       </div>
     </BrowserRouter>
